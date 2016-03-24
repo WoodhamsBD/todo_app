@@ -16,6 +16,10 @@ Rails.application.configure do
   config.serve_static_files   = true
   config.static_cache_control = 'public, max-age=3600'
 
+  config.action_mailer.delivery_method = :test
+  host = 'test.localhost:3000'
+  config.action_mailer.default_url_options = { host: host }
+
   # Show full error reports and disable caching.
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
