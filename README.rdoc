@@ -1,1 +1,15 @@
-Skeleton ReadME
+<h1>Todo App</h1>
+
+
+<p>Init of Todo App. Rehashing old Rails knowledge for fun and practice.</p>
+
+<p>Things to do on my todo app:</p>
+	<ul>
+		<li>Todos</li>
+		<li>Sub Todos</li>
+		<li>Completion</li>
+		<li>Email Situation </li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
